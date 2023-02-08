@@ -1,0 +1,23 @@
+.products {
+    margin: 60px 0 ;
+}
+.product {
+    width: 24%;
+    margin: 50px 16px ;
+    padding: 12px 12px;
+    display: inline-block;
+}
+.btn-addtocard {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 6px 8px;
+    display: block;
+    margin: auto;
+}
+.btn-addtocard:hover {
+    cursor: pointer;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
