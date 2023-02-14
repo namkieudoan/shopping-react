@@ -7,10 +7,12 @@ import "./navbar.css";
 function Navbar() {
     return (
         <div className="navbar">
-            <Link to="/" >Shop</Link>
-            <Link to="/cart" >
+            <span className="nav-item "><Link to="/" >Shop</Link></span>
+            <span className="nav-item"><Link to="/contact" >Contact</Link></span>
+            <span className="nav-item"><Link to="/cart" >
                 <ShoppingCart/>
-            </Link>
+                </Link>
+            </span>
         </div>
     );
 }

@@ -3,3 +3,7 @@
     background-color: #ccc;
     text-align: left;
 }
+.nav-item {
+    padding: 6px;
+    cursor: pointer;
+}
